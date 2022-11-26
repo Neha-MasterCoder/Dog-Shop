@@ -1,0 +1,106 @@
+<html> 
+    <head>
+<title> CONTACT US</title>
+ <style> 
+ .navbar { 
+  background-color: #3f51b5;  
+  display: flex;
+  justify-content: space-between;
+ }
+.left-logo{ 
+display: flex;
+}
+.right-nav-box{
+    display: flex;
+ 
+}
+img{
+    height: 100px;
+    width: 106px;
+}
+ul{ 
+    display: flex;
+    list-style-type: none;
+}
+a{text-decoration:none ;
+  color: white;
+}
+li{
+    padding: 5px 15px;
+    border: 2px solid black ;
+    margin: 18px 10px;
+    border-radius: 10px;
+}
+li:hover { 
+    background-color: #333336;
+    border: 2px solid white;
+}
+li:hover a{
+    color:aliceblue;
+}
+body{
+  
+     margin:0px;
+     }
+     form{ 
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        box-shadow:0px 0px 30px 2px #3f51b5;
+        border-radius: 15px;
+        padding: 10px;
+     }
+     .outerbox{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     h1 {
+        text-align: center;
+     }
+     input{
+        padding: 10px 5px;
+        margin: 5px 2.5px;
+     }
+     .hoverEffect{
+        background:#3f51b5 ;
+            color:white;
+            border-radius: 30px;
+            cursor: pointer;
+     }
+    .hoverEffect:hover{ 
+        border-color: aliceblue;
+        background:#333336;
+    }
+</style>
+    </head>
+
+    <body> 
+ <div class="navbar">
+    <div class="left-logo">
+        <img src="/Dog-Website/OG_SHOP-removebg-preview (1).png" alt="">
+ </div>
+<div class="right-nav-box">
+   <ul>
+    <li> <a href="/Dog-Website/Index.html"> Home</a></li>
+    <li> <a href="/Dog-Website/Prices.html"> Prices</a></li>
+    <li> <a href="/Dog-Website/Contact.html"> Contact Us </a></li>
+
+   </ul>
+</div>
+ </div>
+ <h1> Contact Us </h1>
+<div class="outerbox">
+   <form action="">
+    <input type="text" placeholder="Name">
+    <input type="number" placeholder="Contact Number">
+    <input type="email" placeholder="Email">
+    <textarea name="" id="" cols="30" rows="10" placeholder="Write the description"></textarea>
+    <input class="hoverEffect" type="submit">
+   </form>
+</div>
+   
+
+
+    </body>
+</html>
